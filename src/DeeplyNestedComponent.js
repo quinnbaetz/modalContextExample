@@ -1,6 +1,4 @@
-import React, {useState, createContext, useContext} from 'react';
-import logo from './logo.svg';
-import './App.css'
+import React, {useContext} from 'react';
 import Modal from './Modal'
 import ModalContext from './ModalContext'
 

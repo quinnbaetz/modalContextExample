@@ -1,11 +1,6 @@
-import React, {useState, createContext} from 'react';
-import logo from './logo.svg';
-import './App.css'
-import Modal from './Modal'
+import React from 'react';
 import {ModalWrapper} from './ModalContext'
 import DeeplyNestedComponent from './DeeplyNestedComponent';
-
-
 
 function App() {
   return (

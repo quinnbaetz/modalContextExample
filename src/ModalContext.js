@@ -6,6 +6,7 @@ const ModalContext = createContext()
 export const ModalWrapper = function({children}){
   const [content, setContent] = useState(null)
 
+  /* State management moved up to the top layer so the modal state management is in one place */
   function openModal(content) {
     setContent(content)
   }
